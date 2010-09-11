@@ -21,11 +21,11 @@ We want Portable Hole to cover all the features of S3 in an easy-to-use interfac
 
 We're aiming for something along the lines of:
 
-  okrb = PortableHole.bucket("okrb")
-  
-  okrb.object("PortableHole").put("DATA")
-  # ... or ...
-  okrb.object("PortableHole").stream("path/to/file")
+    okrb = PortableHole.bucket("okrb")
+    
+    okrb.object("PortableHole").put("DATA")
+    # ... or ...
+    okrb.object("PortableHole").stream("path/to/file")
 
 Alternately, we may just use one method and stream content from `IO` objects while we upload `String` content in one big chunk.
 
