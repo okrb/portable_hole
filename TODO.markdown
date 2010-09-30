@@ -1,7 +1,7 @@
 Tasks to get Portable Hole Functional
 =====================================
 
-1. Add a `Rakefile` to make running the tests consistently easy.
+1. <strike>Add a `Rakefile` to make running the tests consistently easy.</strike>
 2. Refactor our early authentication work into a cleaner approach.  I think we
    want to move all details of a request into a `PortableHole::Request` object,
    so we can build up the details of the message to be sent and have a place to
